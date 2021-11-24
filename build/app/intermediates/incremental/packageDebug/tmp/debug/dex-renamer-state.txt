@@ -1,0 +1,4 @@
+#Wed Nov 24 17:27:14 CET 2021
+base.0=F\:\\GitHub\\sap-wiki\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
