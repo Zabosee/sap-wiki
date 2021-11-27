@@ -24,7 +24,8 @@ class HomePage extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               child: Center(
                 child: CircleAvatar(
-                  backgroundImage: ExactAssetImage('assets/images/MB_PB.jpg'),
+                  backgroundImage:
+                      ExactAssetImage('assets/images/homepage/MB_PB.jpg'),
                   maxRadius: 70,
                   minRadius: 30,
                 ),
@@ -44,7 +45,7 @@ class HomePage extends StatelessWidget {
                         throw 'Could not open $url';
                       }
                     },
-                    icon: Image.asset('assets/images/LinkedIn.jpg'),
+                    icon: Image.asset('assets/images/homepage/LinkedIn.jpg'),
                     iconSize: 10,
                   ),
                   IconButton(
@@ -56,7 +57,7 @@ class HomePage extends StatelessWidget {
                         throw 'Could not open $url';
                       }
                     },
-                    icon: Image.asset('assets/images/Xing.jpg'),
+                    icon: Image.asset('assets/images/homepage/Xing.jpg'),
                     iconSize: 10,
                   ),
                   IconButton(
@@ -68,7 +69,7 @@ class HomePage extends StatelessWidget {
                         throw 'Could not open $url';
                       }
                     },
-                    icon: Image.asset('assets/images/GitHub.jpg'),
+                    icon: Image.asset('assets/images/homepage/GitHub.jpg'),
                     iconSize: 10,
                   ),
                   IconButton(
@@ -80,7 +81,7 @@ class HomePage extends StatelessWidget {
                         throw 'Could not open $url';
                       }
                     },
-                    icon: Image.asset('assets/images/Twitter.jpg'),
+                    icon: Image.asset('assets/images/homepage/Twitter.jpg'),
                     iconSize: 10,
                   ),
                   IconButton(
@@ -92,7 +93,7 @@ class HomePage extends StatelessWidget {
                         throw 'Could not open $url';
                       }
                     },
-                    icon: Image.asset('assets/images/SAP.jpg'),
+                    icon: Image.asset('assets/images/homepage/SAP.jpg'),
                     iconSize: 20,
                   ),
                 ],
@@ -112,7 +113,7 @@ class HomePage extends StatelessWidget {
               'Womit arbeite ich?',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
             ),
-            Text('- Grobe Übersicht -' + '\n\n'),
+            Text('- Grobe Übersicht -' '\n\n'),
             SizedBox(
               width: 250,
               height: 400,
@@ -121,7 +122,7 @@ class HomePage extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Image(
-                      image: AssetImage('assets/images/Toolbox.jpg'),
+                      image: AssetImage('assets/images/homepage/Toolbox.jpg'),
                     ),
                   ),
                 ],
@@ -135,7 +136,7 @@ class HomePage extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Image(
-                      image: AssetImage('assets/images/Sapbox.jpg'),
+                      image: AssetImage('assets/images/homepage/Sapbox.jpg'),
                     ),
                   ),
                 ],
@@ -149,7 +150,8 @@ class HomePage extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Image(
-                      image: AssetImage('assets/images/languagesbox.jpg'),
+                      image:
+                          AssetImage('assets/images/homepage/languagesbox.jpg'),
                     ),
                   ),
                 ],

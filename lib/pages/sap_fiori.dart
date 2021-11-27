@@ -47,7 +47,7 @@ class SAPFiori extends StatelessWidget {
                   ),
                   Image(
                     image: AssetImage(
-                        'assets/images/Fiori5_Design_Principles.png'),
+                        'assets/images/sap_fiori/Fiori5_Design_Principles.png'),
                   ),
                   Text(
                     title3 + '\n',
@@ -93,23 +93,24 @@ class SAPFiori extends StatelessWidget {
                     child: Text('- ' + link3Text),
                   ),
                   Image(
-                    image: AssetImage('assets/images/Fiori1.png'),
+                    image: AssetImage('assets/images/sap_fiori/Fiori1.png'),
                   ),
                   Text(title4),
                   Image(
-                    image: AssetImage('assets/images/Fiori2.png'),
+                    image: AssetImage('assets/images/sap_fiori/Fiori2.png'),
                   ),
                   Text(title5),
                   Image(
-                    image: AssetImage('assets/images/Fiori3.png'),
+                    image: AssetImage('assets/images/sap_fiori/Fiori3.png'),
                   ),
                   Text(title6),
                   Image(
-                    image: AssetImage('assets/images/Fiori4.png'),
+                    image: AssetImage('assets/images/sap_fiori/Fiori4.png'),
                   ),
                   Text(title7),
                   Image(
-                    image: AssetImage('assets/images/Fiori5_WhenToUseWhat.png'),
+                    image: AssetImage(
+                        'assets/images/sap_fiori/Fiori5_WhenToUseWhat.png'),
                   ),
                   Text('\n' 'Credits \n '),
                   TextButton(
