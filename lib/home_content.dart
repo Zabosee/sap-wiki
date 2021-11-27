@@ -1,5 +1,3 @@
-import 'package:url_launcher/url_launcher.dart';
-
 final String subtitle =
     'Engagierter ABAP-Entwickler, der auch gerne mal über den SAP-Rand hinausblickt um neues zu lernen und entdecken.';
 
@@ -8,5 +6,3 @@ final String content =
 
 final String content2 =
     "Muesste ich mich in einem Satz beschreiben waere das wohl: 'Jack of all trades - and master of none'.";
-
-
