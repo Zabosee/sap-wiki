@@ -92,6 +92,70 @@ class SAPFiori extends StatelessWidget {
                     },
                     child: Text('- ' + link3Text),
                   ),
+                  Image(
+                    image: AssetImage('assets/images/Fiori1.png'),
+                  ),
+                  Text(title4),
+                  Image(
+                    image: AssetImage('assets/images/Fiori2.png'),
+                  ),
+                  Text(title5),
+                  Image(
+                    image: AssetImage('assets/images/Fiori3.png'),
+                  ),
+                  Text(title6),
+                  Image(
+                    image: AssetImage('assets/images/Fiori4.png'),
+                  ),
+                  Text(title7),
+                  Image(
+                    image: AssetImage('assets/images/Fiori5_WhenToUseWhat.png'),
+                  ),
+                  Text('\n' 'Credits \n '),
+                  TextButton(
+                    onPressed: () async {
+                      final url = credit1Link;
+                      if (await canLaunch(url)) {
+                        await launch(url);
+                      } else {
+                        throw 'Could not open $url';
+                      }
+                    },
+                    child: Text('- ' + credit1Text),
+                  ),
+                  TextButton(
+                    onPressed: () async {
+                      final url = credit2Link;
+                      if (await canLaunch(url)) {
+                        await launch(url);
+                      } else {
+                        throw 'Could not open $url';
+                      }
+                    },
+                    child: Text('- ' + credit2Text),
+                  ),
+                  TextButton(
+                    onPressed: () async {
+                      final url = credit3Link;
+                      if (await canLaunch(url)) {
+                        await launch(url);
+                      } else {
+                        throw 'Could not open $url';
+                      }
+                    },
+                    child: Text('- ' + credit3Text),
+                  ),
+                  TextButton(
+                    onPressed: () async {
+                      final url = credit4Link;
+                      if (await canLaunch(url)) {
+                        await launch(url);
+                      } else {
+                        throw 'Could not open $url';
+                      }
+                    },
+                    child: Text('- ' + credit4Text),
+                  ),
                 ],
               ),
             )

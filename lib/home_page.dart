@@ -37,7 +37,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   IconButton(
                     onPressed: () async {
-                      final url = 'https://www.linkedin.com/in/dev-marco-beier';
+                      final url = linkedin;
                       if (await canLaunch(url)) {
                         await launch(url);
                       } else {
@@ -48,22 +48,50 @@ class HomePage extends StatelessWidget {
                     iconSize: 10,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () async {
+                      final url = xing;
+                      if (await canLaunch(url)) {
+                        await launch(url);
+                      } else {
+                        throw 'Could not open $url';
+                      }
+                    },
                     icon: Image.asset('assets/images/Xing.jpg'),
                     iconSize: 10,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () async {
+                      final url = git;
+                      if (await canLaunch(url)) {
+                        await launch(url);
+                      } else {
+                        throw 'Could not open $url';
+                      }
+                    },
                     icon: Image.asset('assets/images/GitHub.jpg'),
                     iconSize: 10,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () async {
+                      final url = twitter;
+                      if (await canLaunch(url)) {
+                        await launch(url);
+                      } else {
+                        throw 'Could not open $url';
+                      }
+                    },
                     icon: Image.asset('assets/images/Twitter.jpg'),
                     iconSize: 10,
                   ),
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () async {
+                      final url = sap;
+                      if (await canLaunch(url)) {
+                        await launch(url);
+                      } else {
+                        throw 'Could not open $url';
+                      }
+                    },
                     icon: Image.asset('assets/images/SAP.jpg'),
                     iconSize: 20,
                   ),

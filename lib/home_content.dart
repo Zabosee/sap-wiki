@@ -6,3 +6,8 @@ final String content =
 
 final String content2 =
     "Muesste ich mich in einem Satz beschreiben waere das wohl: 'Jack of all trades - and master of none'.";
+final String linkedin = 'https://www.linkedin.com/in/dev-marco-beier';
+final String xing = 'https://www.xing.com/profile/Marco_Beier8';
+final String git = 'https://github.com/wridgeu';
+final String twitter = 'https://twitter.com/Wridgeu';
+final String sap = 'https://people.sap.com/marcobeier';
