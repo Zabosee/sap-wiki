@@ -224,13 +224,19 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "zoom_widget",
+      "rootUri": "file:///C:/Users/lukas/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/zoom_widget-0.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sap_wiki",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-11-27T15:24:00.310075Z",
+  "generated": "2021-11-29T19:57:59.942899Z",
   "generator": "pub",
   "generatorVersion": "2.14.4"
 }

@@ -37,6 +37,7 @@ dependencies:
   bloc: ^8.0.1
   flutter_bloc: ^8.0.0
   url_launcher: ^5.7.10
+  zoom_widget: ^0.2.1
 
 dev_dependencies:
   flutter_test:
@@ -69,6 +70,7 @@ flutter:
     - assets/images/homepage/
     - assets/images/sap_fiori/
     - assets/images/ui5_overview/
+    - assets/images/ui5_instantiation/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

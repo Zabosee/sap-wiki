@@ -252,6 +252,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0"
+  zoom_widget:
+    dependency: "direct main"
+    description:
+      name: zoom_widget
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.1"
 sdks:
   dart: ">=2.12.0 <3.0.0"
   flutter: ">=1.22.0"
