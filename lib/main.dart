@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sap_wiki/home_page.dart';
+import 'package:sap_wiki/start_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'MaterialApp',
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.dark,
-      home: HomePage(),
+      home: StartScreen(),
     );
   }
 }

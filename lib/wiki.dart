@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sap_wiki/pages/module_loading.dart';
 import 'package:sap_wiki/pages/sap_fiori.dart';
 import 'package:sap_wiki/pages/ui5_folder_structure.dart';
 import 'package:sap_wiki/pages/ui5_overview.dart';
@@ -81,7 +82,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => Module(),
                     ),
                   );
                 },

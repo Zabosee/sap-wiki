@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "args",
+      "rootUri": "file:///C:/Users/lukas/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/args-2.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "async",
       "rootUri": "file:///C:/Users/lukas/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.8.1",
       "packageUri": "lib/",
@@ -74,6 +80,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_glow",
+      "rootUri": "file:///C:/Users/lukas/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_glow-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_markdown",
+      "rootUri": "file:///C:/Users/lukas/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_markdown-0.6.8",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///C:/Users/lukas/Flutter/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -86,6 +104,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "http",
+      "rootUri": "file:///C:/Users/lukas/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///C:/Users/lukas/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "js",
       "rootUri": "file:///C:/Users/lukas/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3",
       "packageUri": "lib/",
@@ -94,6 +124,12 @@
     {
       "name": "lints",
       "rootUri": "file:///C:/Users/lukas/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "markdown",
+      "rootUri": "file:///C:/Users/lukas/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/markdown-4.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -236,7 +272,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-11-29T19:57:59.942899Z",
+  "generated": "2021-12-07T18:00:30.926768Z",
   "generator": "pub",
   "generatorVersion": "2.14.4"
 }
