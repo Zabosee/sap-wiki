@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-import 'package:http/http.dart' as http;
 
 class Module extends StatelessWidget {
   const Module({Key? key}) : super(key: key);
@@ -16,7 +15,7 @@ class Module extends StatelessWidget {
       ),
       body: FutureBuilder(
         future: Future.delayed(Duration(seconds: 1),
-            () => rootBundle.loadString("assets/test.md")),
+            () => rootBundle.loadString("lib/content/module_loading_content.md")),
         builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
           if (snapshot.hasData) {
             return Markdown(

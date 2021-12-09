@@ -1,14 +1,20 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
+import 'package:sap_wiki/content/ui5_instantiation_content.dart';
 import 'package:sap_wiki/pages/module_loading.dart';
 import 'package:sap_wiki/pages/sap_fiori.dart';
 import 'package:sap_wiki/pages/ui5_folder_structure.dart';
 import 'package:sap_wiki/pages/ui5_overview.dart';
+import 'package:sap_wiki/pages/ui5_views.dart';
 
 import 'pages/ui5_instantiation.dart';
 
 class WikiPedia extends StatelessWidget {
   const WikiPedia({Key? key}) : super(key: key);
 
+  
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -93,7 +99,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => UI5Views(),
                     ),
                   );
                 },
