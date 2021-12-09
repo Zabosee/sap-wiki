@@ -2,19 +2,45 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:sap_wiki/content/ui5_instantiation_content.dart';
+import 'package:sap_wiki/pages/app_repository.dart';
+import 'package:sap_wiki/pages/app_router.dart';
+import 'package:sap_wiki/pages/basics_routing.dart';
+import 'package:sap_wiki/pages/bundle_custom_control.dart';
+import 'package:sap_wiki/pages/cds.dart';
+import 'package:sap_wiki/pages/class_inheritance.dart';
+import 'package:sap_wiki/pages/components.dart';
+import 'package:sap_wiki/pages/credits_classes_object.dart';
+import 'package:sap_wiki/pages/credits_ui5_extensibility.dart';
+import 'package:sap_wiki/pages/custom_control.dart';
+import 'package:sap_wiki/pages/example_class.dart';
+import 'package:sap_wiki/pages/full_example.dart';
+import 'package:sap_wiki/pages/hana.dart';
 import 'package:sap_wiki/pages/module_loading.dart';
+import 'package:sap_wiki/pages/not_found_page.dart';
+import 'package:sap_wiki/pages/sap_cap.dart';
 import 'package:sap_wiki/pages/sap_fiori.dart';
+import 'package:sap_wiki/pages/scp_hana.dart';
+import 'package:sap_wiki/pages/singleton_pattern.dart';
+import 'package:sap_wiki/pages/standard_controls.dart';
+import 'package:sap_wiki/pages/ui5_binding_paths.dart';
+import 'package:sap_wiki/pages/ui5_binding_syntax.dart';
+import 'package:sap_wiki/pages/ui5_classes_objects.dart';
+import 'package:sap_wiki/pages/ui5_cli.dart';
+import 'package:sap_wiki/pages/ui5_extensibility.dart';
 import 'package:sap_wiki/pages/ui5_folder_structure.dart';
 import 'package:sap_wiki/pages/ui5_overview.dart';
+import 'package:sap_wiki/pages/ui5_render_manager.dart';
+import 'package:sap_wiki/pages/ui5_shims.dart';
+import 'package:sap_wiki/pages/ui5_testing.dart';
 import 'package:sap_wiki/pages/ui5_views.dart';
+import 'package:sap_wiki/pages/ui5_websockets.dart';
+import 'package:sap_wiki/pages/xmlcomposite_control.dart';
 
 import 'pages/ui5_instantiation.dart';
 
 class WikiPedia extends StatelessWidget {
   const WikiPedia({Key? key}) : super(key: key);
 
-  
-  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -110,7 +136,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => UI5Syntax(),
                     ),
                   );
                 },
@@ -121,7 +147,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => UI5Paths(),
                     ),
                   );
                 },
@@ -132,7 +158,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => UI5ClassObj(),
                     ),
                   );
                 },
@@ -143,7 +169,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => ExampleClass(),
                     ),
                   );
                 },
@@ -154,7 +180,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => ClassInheritance(),
                     ),
                   );
                 },
@@ -165,7 +191,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => FullExample(),
                     ),
                   );
                 },
@@ -176,7 +202,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => SingletonPattern(),
                     ),
                   );
                 },
@@ -187,7 +213,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => CrClassObj(),
                     ),
                   );
                 },
@@ -198,7 +224,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => UI5Extensibility(),
                     ),
                   );
                 },
@@ -209,7 +235,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => StandardControls(),
                     ),
                   );
                 },
@@ -220,7 +246,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => CustomControl(),
                     ),
                   );
                 },
@@ -231,7 +257,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => UI5RenderManager(),
                     ),
                   );
                 },
@@ -242,7 +268,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => XMLCompositeControl(),
                     ),
                   );
                 },
@@ -253,7 +279,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => BundleCustomControl(),
                     ),
                   );
                 },
@@ -264,7 +290,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => Components(),
                     ),
                   );
                 },
@@ -275,7 +301,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => CrUI5Extensibility(),
                     ),
                   );
                 },
@@ -286,7 +312,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => BasicsRouting(),
                     ),
                   );
                 },
@@ -297,7 +323,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => NotFound(),
                     ),
                   );
                 },
@@ -308,7 +334,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => UI5Websockets(),
                     ),
                   );
                 },
@@ -319,7 +345,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => UI5Testing(),
                     ),
                   );
                 },
@@ -330,7 +356,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => UI5Cli(),
                     ),
                   );
                 },
@@ -341,7 +367,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => UI5Shims(),
                     ),
                   );
                 },
@@ -352,7 +378,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => Hana(),
                     ),
                   );
                 },
@@ -363,7 +389,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => AppRouter(),
                     ),
                   );
                 },
@@ -374,7 +400,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => SAPHana(),
                     ),
                   );
                 },
@@ -385,7 +411,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => SAPCap(),
                     ),
                   );
                 },
@@ -396,7 +422,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => CDS(),
                     ),
                   );
                 },
@@ -407,7 +433,7 @@ class WikiPedia extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => AppRepository(),
                     ),
                   );
                 },

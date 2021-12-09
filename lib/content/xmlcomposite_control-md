@@ -1,0 +1,106 @@
+## Introduction
+
+"Composite controls are controls that combine multiple controls together to form a new reusable control. For example, a simple composite control could consist of both a Label control and a TextBox control." -[Basic Introduction](https://www.codeproject.com/Articles/667191/Composite-Controls)
+
+An XMLComposite-Control is basically like a custom control without the renderer. Instead of manually taking care of how to render the control we can create a fragment and assign a controller to it and use it within our Views just like any other control.
+
+The two main parts of an XML-Composite Control are:
+
+* JS file - containing the API (metadata) for our control and other functions like the already known _init_ or _onAfterRendering_. Inheriting from "_[sap/ui/core/XMLComposite](https://sapui5.hana.ondemand.com/#/api/sap.ui.core.XMLComposite)_".
+* XML file - consists of an XML fragment that we can use to build our UI. It replaces the renderer function of the control.
+
+## When to use XMLComposite Controls?
+
+When you want to put several controls like: Input-Field, Label and a Button together and reuse it multiple times. Instead of manually putting those controls together in our View we can just group them within an XMLComposite-Control and use one control instead of many in our View.
+
+## Finding a place in your App
+
+Our folder structure could look like this:
+```text
+.
+├── webapp
+│   ├── controller
+│   ├── controls
+│   │   └── compositeControl
+│   │       ├── compositeControl.control.xml
+│   │       └── compositeControl.js
+│   ├── css
+│   ├── i18n
+│   ├── model
+│   ├── resources
+│   └── view
+├── Component.js
+├── index.html
+└── manifest.json
+```
+
+## Creating the XMLComposite-UI
+
+As already mentioned the UI of the XMLComposite Control is declared within the "__someCompositeControlName.control.xml__"-file. Quite simple, just already known XML, except for those bindings we can see `{$this>property}`. In fact we bind our control attributes to properties defined within our actual control implementation API (metadata).
+
+```XML
+<core:FragmentDefinition 
+    xmlns="sap.m" 
+    xmlns:core="sap.ui.core" 
+    xmlns:l="sap.ui.layout">
+        <l:HorizontalLayout>
+            <Label text="{$this>label}"  class="sapUiSmallMargin"/>
+            <Input value="{$this>value}"/>
+            <Button icon="sap-icon://sys-help" press="handlePress"/>
+        </l:HorizontalLayout>
+</core:FragmentDefinition>
+```
+
+## Implementing the XMLComposite-Control
+
+By now this should look quite familiar to us. It's a basic class inheritance. We inherit from _"[sap/ui/core/XMLComposite](https://sapui5.hana.ondemand.com/#/api/sap.ui.core.XMLComposite)"_ and add our own API (metadata) with it's properties and events. Here we can see the properties previously used within our XMLComposite-UI e.g. `{$this>value}`. 
+
+Remember: We have no renderer function here as our fragment takes care of the presentation.
+
+```javascript
+sap.ui.define([
+    "sap/ui/core/XMLComposite"
+], function(XMLComposite) {
+	"use strict";
+
+	var compositeControl = XMLComposite.extend("some.Namespace.projectName.folder1.folder2.compositeControl", {
+
+		metadata: {
+			properties: {
+               label: "string",
+               value: "string"
+            },
+            events: {
+                compositeControlEvent: {}
+            }
+        },
+        //handle event from compositeUI
+        handlePress: function(oEvt){
+            //delegate event for view controller with values
+            this.fireEvent("compositeControlEvent", oEvt);
+        }
+    });
+
+    return compositeControl;
+    
+});
+```
+
+## Using the XMLComposite Control in our View
+
+### Create the XML-Namespace
+
+```XML
+<mvc:View xmlns:xmlComposite="some.Namespace.projectName.folder1.folder2">
+```
+
+### Use the control
+
+* __Note:__ 
+    The `onPress`-method is being implemented in our View-Controller.
+
+```XML
+<xmlComposite:someControlName label="LabelText" value="someValue" compositeControlEvent="onPress" />
+```
+
+More information in the [credits](https://github.com/wridgeu/wridgeu.github.io/wiki/Credits-UI5-Extensibility), also check out [Wouters](https://blogs.sap.com/2018/05/25/create-your-first-xml-composite-control/) blog post on this topic as I basically took his example.
