@@ -10,36 +10,36 @@ This is a collection of several slides from one of the openSAP courses, regardin
 * It is a set of [domain-specific languages](https://cap.cloud.sap/docs/cds/)
 * The backbone of the SAP Cloud Application Programming Model
 
-[[images/cdsoverview.png]]
+![Overview](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cdsoverview.png)
 
 
-[[images/whatiscds.png]]
+![CDS](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/whatiscds.png)
 
 ## Definition Language (CDL)
 
 ### Entities
 
-[[images/cdlentities.png]]
+![Entities](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cdlentities.png)
 
 ### Views
 
-[[images/cdlviews.png]]
+![Views](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cdlviews.png)
 
 ### Associations
 
-[[images/cdlassociations.png]]
+![Associations](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cdlassociations.png)
 
 ### Aspects
 
-[[images/cldaspects.png]]
+![Aspects](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cldaspects.png)
 
 ### Types
 
-[[images/cdltypes.png]]
+![Types](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cdltypes.png)
 
 ### Service definitions
 
-[[images/cdlservicedefinitions.png]]
+![Service](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cdlservicedefinitions.png)
 
 ## Core Schema Notation (CSN)
 
@@ -47,9 +47,9 @@ This is a collection of several slides from one of the openSAP courses, regardin
 * Similiar to JSON Schema but goes beyond with the ability to capture full-blown entity-relationship models
 * Perfect source to generate target models, such as OData/EDM interfaces, as well as persistance models for SQL or NoSQL databases
 
-[[images/cdlintocsnexample.png]]
+![Example](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cdlintocsnexample.png)
 
-[[images/cdlintocsnexample2.png]]
+![Example2](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cdlintocsnexample2.png)
 
 ## Query Language (CQL)
 
@@ -57,23 +57,23 @@ CDS QL is based on standard SQL with some enhancements:
 
 ### Postfix projections
 
-[[images/cqlpostfixexpr.png]]
+![PostFix](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cqlpostfixexpr.png)
 
 ### Path expressions
 
-[[images/cqlpathexpr.png]]
+![Expressions](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cqlpathexpr.png)
 
 ### CDL-style casts
 
-[[images/cqlcdlstylecasts.png]]
+![Style](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cqlcdlstylecasts.png)
 
 ### Excluding clause
 
-[[images/cqlexcludingclause.png]]
+![ExludingClause](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cqlexcludingclause.png)
 
 ### Query-local mixins
 
-[[images/cqlquerymixins.png]]
+![Mixins](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/cqlquerymixins.png)
 
 # Credits
 

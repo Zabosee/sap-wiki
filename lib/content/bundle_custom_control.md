@@ -54,19 +54,19 @@ some.lib/
 Credits to [Flexso Digital](https://www.slideshare.net/ThomasNelissen/develop-custom-sapui5-libraries-using-sap-web-ide).
 
 ### 1.
-[[images/createlib1.png]]
+![1](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/createlib1.png)
 
 ### 2.
-[[images/createlib2.png]]
+![2](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/createlib2.png)
 
 ### 3.
-[[images/createlib3.png]]
+![3](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/createlib3.png)
 
 ### 4.
-[[images/createlib4.png]]
+![4](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/createlib4.png)
 
 ### 5.
-[[images/createlib5.png]]
+![5](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/createlib5.png)
 
 # Credits:
 

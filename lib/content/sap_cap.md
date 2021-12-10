@@ -5,17 +5,17 @@
 ## Overview
 
 ### Basic Overview
-[[images/CAPOverviewraw.png]]
+![Overview](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/CAPOverviewraw.png)
 
 ### In-Depth Overview
-[[images/CAPOverview.png]]
+![CAPOverview](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/CAPOverview.png)
 
 ### Design Principles
 
-[[images/CAPDesignPrinciples.png]]
+![DesignPrinciples](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/CAPDesignPrinciples.png)
 
 ### Core Concepts
-[[images/capcoreconcept.png]]
+![Core](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/capcoreconcept.png)
 
 # Credits
 

@@ -20,6 +20,7 @@ import 'package:sap_wiki/pages/not_found_page.dart';
 import 'package:sap_wiki/pages/sap_cap.dart';
 import 'package:sap_wiki/pages/sap_fiori.dart';
 import 'package:sap_wiki/pages/scp_hana.dart';
+import 'package:sap_wiki/pages/shell_component.dart';
 import 'package:sap_wiki/pages/singleton_pattern.dart';
 import 'package:sap_wiki/pages/standard_controls.dart';
 import 'package:sap_wiki/pages/ui5_binding_paths.dart';
@@ -36,6 +37,7 @@ import 'package:sap_wiki/pages/ui5_views.dart';
 import 'package:sap_wiki/pages/ui5_websockets.dart';
 import 'package:sap_wiki/pages/xmlcomposite_control.dart';
 
+import 'navigation_drawer_widget.dart';
 import 'pages/ui5_instantiation.dart';
 
 class WikiPedia extends StatelessWidget {
@@ -44,6 +46,7 @@ class WikiPedia extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // endDrawer: NavigationDrawerWidget(),
       appBar: AppBar(
         title: Text('Navigation'),
         centerTitle: true,
@@ -54,7 +57,7 @@ class WikiPedia extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              ElevatedButton(
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -65,7 +68,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('SAP-Fiori'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -76,7 +83,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5-Overview'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -87,7 +98,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5 Folder Structure'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -98,18 +113,26 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5 Instantiation'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => UI5(),
+                      builder: (context) => ShellComponent(),
                     ),
                   );
                 },
                 child: Text('Shell and ComponentContainer'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -120,7 +143,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Module Loading'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -131,7 +158,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5 Views'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -142,7 +173,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5 Binding Syntax'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -153,7 +188,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Binding Paths'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -164,7 +203,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5 Classes and Objects'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -175,7 +218,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Example of a Class'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -186,7 +233,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Class Inheritance'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -197,7 +248,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Full Example'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -208,7 +263,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Singleton Pattern'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -219,7 +278,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Credits UI5 Classes and Objects'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -230,7 +293,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5 Extensibility'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -241,7 +308,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Extend Standard Controls'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -252,7 +323,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Create Custom Control'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -263,7 +338,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5 Render Manager'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -274,7 +353,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Create XMLComposite Control'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -285,7 +368,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Bundle Custom Controls in a Library'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -296,7 +383,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Components'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -307,7 +398,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Credits UI5 Extensibility'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -318,7 +413,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5 Basics of Routing'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -329,7 +428,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('Not Found Page'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -340,7 +443,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5 WebSockets'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -351,7 +458,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5 Testing'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -362,7 +473,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5 CLI'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -373,18 +488,26 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('UI5 Shims'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => Hana(),
+                      builder: (context) => SAPHana(),
                     ),
                   );
                 },
                 child: Text('SCP/CF & HANA'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -395,18 +518,26 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('SAP App Router'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => SAPHana(),
+                      builder: (context) => Hana(),
                     ),
                   );
                 },
                 child: Text('SAP HANA XS'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -417,7 +548,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('SAP CAP'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,
@@ -428,7 +563,11 @@ class WikiPedia extends StatelessWidget {
                 },
                 child: Text('CDS'),
               ),
-              ElevatedButton(
+              Divider(
+                height: 5,
+                thickness: 2,
+              ),
+              TextButton(
                 onPressed: () {
                   Navigator.push(
                     context,

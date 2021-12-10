@@ -9,11 +9,16 @@ class CrClassObj extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('dsa'),
+        title: Text('Credits UI5 Classes'),
+        backgroundColor: const Color.fromRGBO(44, 47, 51, 1),
+        foregroundColor: Colors.blue,
+        centerTitle: true,
       ),
       body: FutureBuilder(
-        future: Future.delayed(Duration(seconds: 1),
-            () => rootBundle.loadString("lib/content/credits_classes_object.md")),
+        future: Future.delayed(
+            Duration(seconds: 1),
+            () =>
+                rootBundle.loadString("lib/content/credits_classes_object.md")),
         builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
           if (snapshot.hasData) {
             return Markdown(

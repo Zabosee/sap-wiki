@@ -109,7 +109,7 @@ http://<someHost>:<Port>/index.html#/somethingInvalidAfterTheHash
 ```
 ... we display the following view:
 
-[[images/notFoundPageExample.png]]
+![NotFound](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/notFoundPageExample.png)
 
 ## Conventions
 * Always configure the bypassed property and a corresponding target

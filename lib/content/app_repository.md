@@ -4,21 +4,21 @@ Some documentation from the UI5Con BE 2020, showing some slides from [Marius Obe
 
 ## The Old Approach (MTA)
 
-[[images/oldapproach1.jpg]]
+![MTA](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/oldapproach1.jpg)
 
-[[images/oldapproach2.jpg]]
+![MTA2](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/oldapproach2.jpg)
 
-[[images/oldapproach3.jpg]]
+![MTA3](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/oldapproach3.jpg)
 
-[[images/oldapproach4.jpg]]
+![MTA4](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/oldapproach4.jpg)
 
 
 ## The New Approach (HTML5 Application Repository)
 
-[[images/newapproach1.jpg]]
+![APP1](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/newapproach1.jpg)
 
-[[images/newapproach2.jpg]]
+![APP2](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/newapproach2.jpg)
 
-[[images/newapproach3.jpg]]
+![APP3](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/newapproach3.jpg)
 
-[[images/newapproach4.jpg]]
+![APP4](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/newapproach4.jpg)

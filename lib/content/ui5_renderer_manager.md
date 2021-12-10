@@ -1,4 +1,3 @@
-
 ## About the UI5 Render Manager
 
 More information about the UI5 render manager can be found [here ...](
@@ -22,7 +21,7 @@ renderer: function(oRM, oCustomControl){
 
 __Rendered in HTML__
 
-[[images/CustomControl_oRM_Alt.png]]
+![CustomControl](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/CustomControl_oRM_Alt.png)
 
 ### The new way
 
@@ -38,7 +37,7 @@ renderer: function(oRM, oCustomControl){
 
 __Rendered in HTML__
 
-[[images/CustomControl_oRM_Neu.png]]
+![New](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/CustomControl_oRM_Neu.png)
 
 Rendered with small adjustment to `.openStart` method, following a hint in the UI5 Documentation about optimization of the renderer. Here, instead of giving the entire element as second parameter we just hand over the Id where we can add our own suffix.
 
@@ -48,7 +47,7 @@ oRM.openStart("div", oCustomControl.getId()+"-suffix")
 
 __Rendered in HTML__
 
-[[images/CustomControl_oRM_Neu_efficient_DOM_Update.png]]
+![new2](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/CustomControl_oRM_Neu_efficient_DOM_Update.png)
 
 ### apiVersion 2 of the Renderer
 
@@ -71,13 +70,13 @@ renderer: {
 
 A detailed explanation about the old and new rendering API of the UI5 framework as well as other examples for a custom control using it, can be found [here](https://blogs.sap.com/2020/04/20/ui5ers-buzz-52-the-rendering-evolution-semantic-rendering-and-css-variables/).
 
-[[images/sidebysiderenderengine2.png]]
+![sidebyside](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/sidebysiderenderengine2.png)
 
 ### Co-Existance of old and new API
 
 The following picture illustrates a control tree with V2 renderers (new API) and the V1 renderers (old API). While a change of the state of a control using a V2 renderer (dashed border and colored background) only invalidates and updates the DOM of the control, a change to the state of a control using a V1 renderer will also re-render all child controls regardless whether they support DOM patching or not.
 
-[[images/coexistancerenderengine.png]]
+![CoExist](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/coexistancerenderengine.png)
 
 # Credits
 

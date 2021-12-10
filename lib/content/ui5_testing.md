@@ -4,7 +4,7 @@ Some examples are based on the official UI5 documentation walkthrough. Check out
 
 ### Testing Pyramid
 
-[[images/testingpyramid.png]]
+![Pyramid](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/testingpyramid.png)
 
 ## Component Tests
 
@@ -14,13 +14,13 @@ OPA is a set of tools used to automate and validate UI (it comes with backend mo
 
 Other automation frameworks like Selenium, Marionette or Puppeteer are framework agnostic, meaning one must rely on the generated HTML to code automation (IDs, CSS selectors...). OPA is designed __by and for__ UI5 developers. It is capable of manipulating UI5 controls.
 
-[[images/integrationtestoverview.png]]
+![Integration](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/integrationtestoverview.png)
 
 #### Overview of one OPA Test
 
 Quite noticable here is the *Give, When, Then* pattern.
 
-[[images/exampleopatest.png]]
+![Example](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/exampleopatest.png)
 
 * __Arrangements__ (Given)
 
@@ -138,7 +138,7 @@ sap.ui.require([
 
 The MockServer is a software component that captures AJAX requests and either *answers them* or *lets them reach* the backend. Check out the official documentation regarding the MockServer [here](https://openui5.hana.ondemand.com/#/api/sap.ui.core.util.MockServer).
 
-[[images/mockserver.png]]
+![Mockserver](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/mockserver.png)
 
 ##### Configuration
 
@@ -208,7 +208,7 @@ _oMockServer.setRequests(aRequests);
 
 ## Unit Tests
 
-[[images/unittestingoverview.png]]
+![UnitTesting](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/unittestingoverview.png)
 
 * __Given__
 

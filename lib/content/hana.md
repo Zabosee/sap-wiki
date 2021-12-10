@@ -14,15 +14,15 @@ Turns out they're two different things. As XSA is the On-Premise runtime opposed
 
 *The following picture shows a comparison between On-Premise(left) and the Cloud(right)*.
 
-[[images/hanaxsaonpremisecf.png]]
+![Premise](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/hanaxsaonpremisecf.png)
 
 ## Basic Approach Overview
 
-[[images/hanaxsoverview.png]]
+![Approach](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/hanaxsoverview.png)
 
 ## Architecture Overview
 
-[[images/xsaarchitecture.png]]
+![Architecture](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/xsaarchitecture.png)
 
 # Security Overview
 
@@ -41,17 +41,17 @@ This section should provide some overview on how spaces, organizations, authenti
 
 ### Spaces / Organizations
 
-[[images/hanaxsasecurity2.png]]
+![Security](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/hanaxsasecurity2.png)
 
 ### Authentication & Authorization
 
-[[images/hanaxsasecurity1.png]]
+![Security](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/hanaxsasecurity1.png)
 
 Not related to the above picture, another depiction of authentication/authorization in a sequence diagram.
 
-[[images/hanaxsaauthentication.png]]
+![Auth](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/hanaxsaauthentication.png)
 
-[[images/hanaxsasecurity.png]]
+![Security](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/hanaxsasecurity.png)
 
 There is a lot ground to cover which I definitely can't just simply summarize in this wiki page therefore go ahead and check out some of the SAP blogs, YT videos, openSAP courses or documentation related to this topic.
 

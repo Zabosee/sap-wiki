@@ -8,7 +8,7 @@ Let's take the __"sap.m.Input"__ control as an example and have a quick look int
 
 See how the Input control is defined as _class_:
 
-[[images/sapmInputDocumentationDefinition.png]]
+![Definition](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/sapmInputDocumentationDefinition.png)
 
 # What are Controls made of?
 

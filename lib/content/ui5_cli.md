@@ -4,7 +4,7 @@ In order to work with UI5 like you'd normally work with most of the other JS-fra
 
 ### Module Overview of the UI5-CLI (tooling):
 
-[[images/ui5ModuleOverviewCLI.png]]
+![CLI](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/ui5ModuleOverviewCLI.png)
 
 ## The Ecosystem
 
@@ -18,7 +18,7 @@ There is an entire ecosystem out there that can help you develop, test and deplo
 
 ## Tooling Architecture
 
-[[images/ArchitectureOverviewUI5Tooling.jpg]]
+![Tooling](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/ArchitectureOverviewUI5Tooling.jpg)
 
 ## Tooling Extensibility
 
@@ -26,19 +26,19 @@ There is an entire ecosystem out there that can help you develop, test and deplo
 * [Custom Server Middleware](https://sap.github.io/ui5-tooling/pages/extensibility/CustomServerMiddleware/)
 * [Project Shims](https://sap.github.io/ui5-tooling/pages/extensibility/ProjectShims/)
 
-[[images/ui5CLIExtensibility.png]]
+![Extensibility](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/ui5CLIExtensibility.png)
 
 ## Tooling Project Types
 
 The project types are configured within the `ui5.yaml` file.  
 
-[[images/ui5YamlProjectTypes.png]]
+![ProjectTypes](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/ui5YamlProjectTypes.png)
 
 ## Tooling Configuration
 
 The `ui5.yaml` is the configuration file for the UI5 tooling and is necessary in order to work with the CLI. In here there are several different options and settings which you can configure. Be it custom tasks, middlewares or (new with CLI 2.0) the UI5 dependencies.
 
-[[images/UI5Config.png]]
+![Config](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/UI5Config.png)
 
 You can even use the UI5 tooling in order to run the built application (usually build into a folder named `dist`) locally. Therefore you just copy the `ui5.yaml` file and rename it to `ui5-dist.yaml` and add the following configuration within the renamed yaml file.
 
@@ -150,7 +150,7 @@ or:
 ```
 ### Example:
 
-[[images/ui5typescriptcodecompletion.png]]
+![Example](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/ui5typescriptcodecompletion.png)
 
 # Disclaimer
 

@@ -11,7 +11,7 @@ const oNewObject = new myClass(someParameters);
 
 Where does the [__sap.ui.base.Object__](https://sapui5.hana.ondemand.com/#/api/sap.ui.base.Object) even come from? Here is an overview of the [class hierarchy](https://qmacro.org/2015/07/14/base-classes-in-ui5/) in UI5:
 
-[[images/baseclasses.png]]
+![BaseClasses](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/baseclasses.png)
 
 ### The `.this` keyword in JS
 

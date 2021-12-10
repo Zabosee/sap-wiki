@@ -1,10 +1,10 @@
 ## Introduction
 
-[[images/everyui5appisacomponent.png]]
+![Component](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/everyui5appisacomponent.png)
 
 ## Components vs Controls
 
-[[images/componentsvscontrols.png]]
+![Components](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/componentsvscontrols.png)
 
 Components are a bit more 'complicated' especially when it comes to splitting your app into multiple components and making them work together as one application via routing. Luckily there have been new examples coming up since UI5 version 1.72. Since I do not cover components in my _playground_ application, I'll list a few examples together with some info-material:
 

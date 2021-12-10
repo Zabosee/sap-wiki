@@ -5,13 +5,14 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 class Module extends StatelessWidget {
   const Module({Key? key}) : super(key: key);
 
-  final String urlG =
-      "https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/Module%20Loading%20in%20UI5.md";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('dsa'),
+        title: Text('Module Loading in UI5'),
+        backgroundColor: const Color.fromRGBO(44, 47, 51, 1),
+        foregroundColor: Colors.blue,
+        centerTitle: true,
       ),
       body: FutureBuilder(
         future: Future.delayed(Duration(seconds: 1),

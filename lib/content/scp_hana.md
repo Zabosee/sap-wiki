@@ -12,7 +12,7 @@ The SAP Cloud Platform supports three different environments.
 
 The following picture briefly describes the differences between CF and NEO.
 
-[[images/scpenvironments.png]]
+![Enviroment](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/scpenvironments.png)
 
 ## What is Cloud Foundry?
 
@@ -32,11 +32,11 @@ Classical databases are usually row-oriented whereas SAP HANA databases save dat
 
 Row-Oriented vs Column-Oriented 
 
-[[images/hanacolumnarstorage.png]]
+![ColumnStorage](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/hanacolumnarstorage.png)
 
 Disk Based DB vs HANA (simplified)
 
-[[images/saphana.png]]
+![SAPHana](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/saphana.png)
 
 For more technical info check out: [SAP HANA Basics for Developers](https://www.youtube.com/watch?v=2_P6jcbFzeo).
 

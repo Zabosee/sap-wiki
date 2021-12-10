@@ -4,7 +4,7 @@ What is ABAP Push Channel? Refer to this [blog post](https://blogs.sap.com/2013/
 
 Overview of the WebSocket/APC interaction model in ABAP:
 
-[[images/apc.jpg]]
+![apc](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/apc.jpg)
 
 
 __The following code snippet does__:

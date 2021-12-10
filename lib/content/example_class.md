@@ -35,4 +35,4 @@ Reminder what the [_.extend_](https://sapui5.hana.ondemand.com/#/api/sap.ui.base
 * __oClassInfo?__ - _object_ - structured object with information about the class
 * __FNMetaImpl?__ - _function_ - constructor function for the metadata object. If not given, it defaults to sap.ui.base.Metadata.
 
-[[images/extend.png]]
+![Extend](https://raw.githubusercontent.com/wiki/wridgeu/wridgeu.github.io/images/extend.png)

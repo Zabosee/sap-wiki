@@ -9,11 +9,16 @@ class BundleCustomControl extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('dsa'),
+        title: Text('Bundle Custom Controls'),
+        backgroundColor: const Color.fromRGBO(44, 47, 51, 1),
+        foregroundColor: Colors.blue,
+        centerTitle: true,
       ),
       body: FutureBuilder(
-        future: Future.delayed(Duration(seconds: 1),
-            () => rootBundle.loadString("lib/content/bundle_custom_control.md")),
+        future: Future.delayed(
+            Duration(seconds: 1),
+            () =>
+                rootBundle.loadString("lib/content/bundle_custom_control.md")),
         builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
           if (snapshot.hasData) {
             return Markdown(

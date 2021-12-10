@@ -9,7 +9,10 @@ class CDS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('dsa'),
+        title: Text('CDS'),
+        backgroundColor: const Color.fromRGBO(44, 47, 51, 1),
+        foregroundColor: Colors.blue,
+        centerTitle: true,
       ),
       body: FutureBuilder(
         future: Future.delayed(Duration(seconds: 1),

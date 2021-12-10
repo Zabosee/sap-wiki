@@ -9,7 +9,10 @@ class UI5Paths extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('dsa'),
+        title: Text('UI5 Binding Paths'),
+        backgroundColor: const Color.fromRGBO(44, 47, 51, 1),
+        foregroundColor: Colors.blue,
+        centerTitle: true,
       ),
       body: FutureBuilder(
         future: Future.delayed(Duration(seconds: 1),
