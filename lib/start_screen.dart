@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_glow/flutter_glow.dart';
-import 'package:sap_wiki/home_page.dart';
 import 'package:sap_wiki/wiki.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:url_launcher/url_launcher.dart';
 
 import 'navigation_drawer_widget.dart';
@@ -58,11 +58,12 @@ class StartScreen extends StatelessWidget {
                 Text(
                     'The App is still in progress, so some links may not work. It can take some time\n'),
                 Padding(
-                  padding: const EdgeInsets.only(top: 335),
+                  padding: const EdgeInsets.only(top: 290),
                   child: GlowButton(
-                    width: 150,
+                    width: 250,
+                    height: 70,
                     child: Text(
-                      'SAPUI5-Wiki',
+                      'Open the SAPUI5-Wiki',
                       style: TextStyle(color: Colors.black),
                     ),
                     onPressed: () {

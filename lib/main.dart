@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sap_wiki/home_page.dart';
 import 'package:sap_wiki/start_screen.dart';
 
 void main() {

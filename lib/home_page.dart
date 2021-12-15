@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:sap_wiki/home_content.dart';
-import 'package:sap_wiki/wiki.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:url_launcher/url_launcher.dart';
 
@@ -10,16 +9,11 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Marco Beier'),
-        backgroundColor: const Color.fromRGBO(44, 47, 51, 1),
-        foregroundColor: Colors.blue,
-        centerTitle: true,
-      ),
       body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
+            Text('\nThe content of the SAPUI5 Wiki is provided by this guy\n'),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Center(
@@ -110,10 +104,10 @@ class HomePage extends StatelessWidget {
               ),
             ),
             Text(
-              'Womit arbeite ich?',
+              'What am I working with?',
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
             ),
-            Text('- Grobe Übersicht -' '\n\n'),
+            Text('- Rough outline -' '\n\n'),
             SizedBox(
               width: 250,
               height: 400,
@@ -157,27 +151,27 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Column(
-                children: [
-                  Text('Wiki/Blog' + '\n',
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
-                ],
-              ),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => WikiPedia(),
-                  ),
-                );
-              },
-              child: Text('Zu meinem SAP Wiki'),
-            ),
+            // Padding(
+            //   padding: const EdgeInsets.all(8.0),
+            //   child: Column(
+            //     children: [
+            //       Text('Wiki/Blog' + '\n',
+            //           style:
+            //               TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+            //     ],
+            //   ),
+            // ),
+            // ElevatedButton(
+            //   onPressed: () {
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(
+            //         builder: (context) => WikiPedia(),
+            //       ),
+            //     );
+            //   },
+            //   child: Text('Zu meinem SAP Wiki'),
+            // ),
           ],
         ),
       ),

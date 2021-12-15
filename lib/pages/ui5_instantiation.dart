@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sap_wiki/content/ui5_instantiation_content.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:url_launcher/url_launcher.dart';
-import 'package:zoom_widget/zoom_widget.dart';
 
 class UI5Instantiation extends StatelessWidget {
   const UI5Instantiation({Key? key}) : super(key: key);

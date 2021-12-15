@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sap_wiki/content/sap_fiori_content.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:url_launcher/url_launcher.dart';
 
 class SAPFiori extends StatelessWidget {

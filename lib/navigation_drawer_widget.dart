@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:sap_wiki/content/ui5_instantiation_content.dart';
 import 'package:sap_wiki/nav_pages/content.dart';
 import 'package:sap_wiki/nav_pages/librarys.dart';
 import 'package:sap_wiki/nav_pages/setttings.dart';
-import 'package:sap_wiki/nav_pages/updates.dart';
+import 'package:sap_wiki/nav_pages/update/updates.dart';
 import 'package:sap_wiki/nav_pages/version.dart';
 
 import 'nav_pages/contact.dart';
@@ -39,7 +38,7 @@ class NavigationDrawerWidget extends StatelessWidget {
               onClicked: () => selectedItem(context, 2),
             ),
             buildMenuItem(
-              text: 'Updates',
+              text: 'Changelog',
               icon: Icons.update,
               onClicked: () => selectedItem(context, 3),
             ),

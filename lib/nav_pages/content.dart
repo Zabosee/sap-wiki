@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sap_wiki/home_page.dart';
 
 class ContentPage extends StatelessWidget {
   const ContentPage({Key? key}) : super(key: key);
@@ -9,7 +10,10 @@ class ContentPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Content'),
         centerTitle: true,
+        backgroundColor: const Color.fromRGBO(44, 47, 51, 1),
+        foregroundColor: Colors.blue,
       ),
+      body: HomePage(),
     );
   }
 }

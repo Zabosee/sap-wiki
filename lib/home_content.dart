@@ -1,11 +1,10 @@
 final String subtitle =
-    'Engagierter ABAP-Entwickler, der auch gerne mal über den SAP-Rand hinausblickt um neues zu lernen und entdecken.';
+    'Dedicated ABAP developer who also likes to look beyond the edge of SAP to learn and discover new things.';
 
 final String content =
-    "Hey! Mein Name ist Marco und dies ist eine Seite, auf der ich einige UI5/WebDev-spezifische Dinge übe. Hier und da gibt es ein paar Informationen über mich. Um mehr zu erfahren, folge mir einfach auf einer der oben verlinkten Social-Media-Seiten. Jegliche Art von Feedback ist sehr geschätzt, da ich in meiner derzeitigen Position in der Firma nicht wirklich mit UI5 arbeite, lerne ich hauptsächlich in meiner Freizeit. Darüber hinaus interessieren mich weitere Themen wie: CAP(bzw. alles rund umd die Cloud), CDS, OData und so weiter...";
-
+    "Hey My name is Marco and this is a demo site where I practice some UI5 ​​/ WebDev specific things. Here and there there is some information about me. To find out more, just follow me on one of the social media pages linked above. Any kind of feedback is very much appreciated, as I don't really work with UI5 in my current position at work, I mainly study in my free time. In addition, I am interested in other topics such as: CAP (or everything to do with the cloud), CDS, OData and so on ...";
 final String content2 =
-    "Muesste ich mich in einem Satz beschreiben waere das wohl: 'Jack of all trades - and master of none'.";
+    "If I had to describe myself in one sentence it would be: 'Jack of all trades - and master of none' .";
 final String linkedin = 'https://www.linkedin.com/in/dev-marco-beier';
 final String xing = 'https://www.xing.com/profile/Marco_Beier8';
 final String git = 'https://github.com/wridgeu';
