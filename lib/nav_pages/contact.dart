@@ -12,7 +12,9 @@ class ContactPage extends StatelessWidget {
         backgroundColor: const Color.fromRGBO(44, 47, 51, 1),
         foregroundColor: Colors.blue,
       ),
-      
+      body: Column(
+        children: [Text('Test')],
+      ),
     );
   }
 }
