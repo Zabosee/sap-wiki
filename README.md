@@ -1,6 +1,6 @@
 # sap_wiki
 
-A new Flutter project.
+Converting a GitHub Pages - UI5 Project to an App
 
 ## Getting Started
 
