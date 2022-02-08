@@ -2,7 +2,6 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_email_sender/flutter_email_sender.dart';
 import 'package:http/http.dart' as http;
 
 class ContactPage extends StatelessWidget {
@@ -88,7 +87,7 @@ class ContactPage extends StatelessWidget {
                   child: TextButton(
                     style: TextButton.styleFrom(
                         primary: Colors.white,
-                        backgroundColor: const Color(0xff151534),
+                        backgroundColor: Colors.lightBlue,
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(40))),
                     onPressed: () async {
