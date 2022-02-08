@@ -56,7 +56,7 @@ class StartScreen extends StatelessWidget {
                 Text(
                     'For more information about the wiki go to Content on the side menu\n'),
                 Text(
-                    'The App is still in progress, so some links may not work. It can take some time\n'),
+                    'The App is still in progress, so some links may not work.\n'),
                 Padding(
                   padding: const EdgeInsets.only(top: 290),
                   child: GlowButton(

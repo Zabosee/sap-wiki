@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:sap_wiki/start_screen.dart';
-import 'package:flutter/services.dart';
+import 'package:firebase_core/firebase_core.dart';
+
+import 'login_screen.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await SystemChrome.setPreferredOrientations([
-    DeviceOrientation.portraitUp,
-    DeviceOrientation.portraitDown,
-  ]);
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 

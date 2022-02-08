@@ -44,16 +44,23 @@ dependencies:
   expandable: ^5.0.1
   flutter_email_sender: ^5.0.2
   image_picker: ^0.8.4+4
+  font_awesome_flutter: ^9.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
+  # Google Sign In
+  firebase_auth: ^1.1.4
+  google_sign_in: ^5.2.3
+
+  # Google Icon
+  font_awesome_flutter: ^9.0.0
+
+  # State Management
+  provider: ^6.0.2
+
+ 
   dartclub_lint: ^0.4.2
 
 # For information on the generic Dart part of this file, see the
