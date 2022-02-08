@@ -2,15 +2,14 @@
 
 Converting a GitHub Pages - UI5 Project to an App
 
-## Getting Started
+## Information
 
-This project is a starting point for a Flutter application.
+The project was mainly created for the developer [wridgeu](https://github.com/wridgeu).
 
-A few resources to get you started if this is your first Flutter project:
+The goal of this App is to go live on the Google Play Store. The App is going to be free for everyone
+but you have to sign up to use it. Through this i'm making sure no one is abusing the App.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Launch
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For the first launch the App will be as minimal as it could be. So no zooming in pictures or special
+animation. 
