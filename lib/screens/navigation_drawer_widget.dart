@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:sap_wiki/nav_pages/content.dart';
 import 'package:sap_wiki/nav_pages/librarys.dart';
 import 'package:sap_wiki/nav_pages/setttings.dart';
 import 'package:sap_wiki/nav_pages/update/updates.dart';
 import 'package:sap_wiki/nav_pages/version.dart';
 
-import 'nav_pages/contact.dart';
+import '../nav_pages/contact.dart';
 
 class NavigationDrawerWidget extends StatelessWidget {
   NavigationDrawerWidget({Key? key}) : super(key: key);

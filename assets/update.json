@@ -1,7 +1,12 @@
 [
     {
+        "version": "1.0.1",
+        "title": "Upgrading the App",
+        "content": "Improving visuals and navigation"
+    },
+    {
         "version": "1.0.0",
-        "title": "Launching the app",
+        "title": "Launching the App",
         "content": "The SAPUI5 Wiki got launched for the first time."
     }
 ]

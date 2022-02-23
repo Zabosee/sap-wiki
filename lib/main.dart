@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sap_wiki/provider/google_sign_in.dart';
-import 'package:sap_wiki/start_screen.dart';
+import 'package:sap_wiki/screens/start_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 
-import 'login_screen.dart';
+import 'screens/login_screen.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();

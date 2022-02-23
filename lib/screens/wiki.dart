@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:sap_wiki/pages/app_repository.dart';
 import 'package:sap_wiki/pages/app_router.dart';
@@ -36,7 +34,7 @@ import 'package:sap_wiki/pages/ui5_views.dart';
 import 'package:sap_wiki/pages/ui5_websockets.dart';
 import 'package:sap_wiki/pages/xmlcomposite_control.dart';
 
-import 'pages/ui5_instantiation.dart';
+import '../pages/ui5_instantiation.dart';
 
 class WikiPedia extends StatelessWidget {
   const WikiPedia({Key? key}) : super(key: key);
