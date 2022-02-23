@@ -14,7 +14,7 @@ class StartScreen extends StatelessWidget {
     return Scaffold(
       drawer: NavigationDrawerWidget(),
       appBar: AppBar(
-        title: Text("SAPUI5 Wiki"),
+        title: Text("SAP Ui5"),
         centerTitle: true,
         backgroundColor: const Color.fromRGBO(44, 47, 51, 1),
         foregroundColor: Colors.blue,
@@ -30,28 +30,28 @@ class StartScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                Text('Welcome to the SAPUI5 Wiki\n'),
-                Text('It is here to help you out in a few cases'),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text('The App is create by'),
-                    TextButton(
-                      onPressed: () async {
-                        final url = "https://github.com/Zabosee";
-                        if (await canLaunch(url)) {
-                          await launch(url);
-                        } else {
-                          throw 'Could not open $url';
-                        }
-                      },
-                      child: Text(
-                        'Zabosee',
-                        style: TextStyle(color: Colors.deepOrange[900]),
-                      ),
-                    ),
-                  ],
-                ),
+                Text('Welcome to the SAP Ui5 Wiki\n'),
+                Text('It is here to help you out in a few cases\n'),
+                // Row(
+                //   mainAxisAlignment: MainAxisAlignment.center,
+                //   children: [
+                //     Text('The App is create by'),
+                //     TextButton(
+                //       onPressed: () async {
+                //         final url = "https://github.com/Zabosee";
+                //         if (await canLaunch(url)) {
+                //           await launch(url);
+                //         } else {
+                //           throw 'Could not open $url';
+                //         }
+                //       },
+                //       child: Text(
+                //         'Zabosee',
+                //         style: TextStyle(color: Colors.deepOrange[900]),
+                //       ),
+                //     ),
+                //   ],
+                // ),
                 Text('It can take 1-2 seconds to completly load the wiki\n'),
                 Text(
                     'For more information about the wiki go to Content on the side menu\n'),

@@ -31,6 +31,7 @@ class ContactPage extends StatelessWidget {
             horizontal: 40,
             vertical: 20,
           ),
+          //Shadows behind the contact box
           // decoration: BoxDecoration(
           //     borderRadius: BorderRadius.circular(10),
           //     boxShadow: [
@@ -45,7 +46,7 @@ class ContactPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                const Text('Contact Us',
+                const Text('Contact us',
                     style:
                         TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 TextFormField(
