@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   bloc: ^8.0.1
   flutter_bloc: ^8.0.0
-  url_launcher: ^6.0.18
+  url_launcher: ^6.0.20
   zoom_widget: ^0.2.1
   flutter_glow: ^0.2.0
   flutter_markdown: ^0.6.8
@@ -45,20 +45,18 @@ dependencies:
   flutter_email_sender: ^5.0.2
   image_picker: ^0.8.4+4
   font_awesome_flutter: ^9.0.0
+  # Google Sign In
+  firebase_auth: ^1.1.4
+  google_sign_in: ^5.2.3
+
+  # State Management
+  provider: ^6.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  # Google Sign In
-  firebase_auth: ^1.1.4
-  google_sign_in: ^5.2.3
-
-  # Google Icon
-  font_awesome_flutter: ^9.0.0
-
-  # State Management
-  provider: ^6.0.2
+  
 
  
   dartclub_lint: ^0.4.2

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:sap_wiki/provider/google_sign_in.dart';
 import 'package:sap_wiki/start_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -15,10 +17,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return
+        // ChangeNotifierProvider(
+        //   create: (context) => GoogleSignInProvider(),
+        //   child:
+        MaterialApp(
       title: 'MaterialApp',
       darkTheme: ThemeData.dark(),
       home: StartScreen(),
+      // ),
     );
   }
 }
