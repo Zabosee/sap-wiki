@@ -15,7 +15,7 @@ class _UpdatePage extends State<UpdatePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Updates'),
+          title: Text('Changelog'),
           centerTitle: true,
           backgroundColor: const Color.fromRGBO(44, 47, 51, 1),
           foregroundColor: Colors.blue,
@@ -82,9 +82,8 @@ class Update1 extends StatelessWidget {
                     scrollOnCollapse: false,
                     child: ExpandablePanel(
                       theme: const ExpandableThemeData(
-                        headerAlignment:
-                            ExpandablePanelHeaderAlignment.center,
-                        tapBodyToExpand: false,
+                        headerAlignment: ExpandablePanelHeaderAlignment.center,
+                        tapBodyToExpand: true,
                         tapBodyToCollapse: true,
                         tapHeaderToExpand: true,
                       ),
@@ -126,13 +125,12 @@ class Update1 extends StatelessWidget {
                       ),
                       builder: (_, collapsed, expanded) {
                         return Padding(
-                          padding: EdgeInsets.only(
-                              left: 10, right: 10, bottom: 10),
+                          padding:
+                              EdgeInsets.only(left: 10, right: 10, bottom: 10),
                           child: Expandable(
                             collapsed: collapsed,
                             expanded: expanded,
-                            theme:
-                                const ExpandableThemeData(crossFadePoint: 0),
+                            theme: const ExpandableThemeData(crossFadePoint: 0),
                           ),
                         );
                       },
